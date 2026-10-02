@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - 2U Software</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Thông tin liên hệ của 2U Software, đơn vị phát triển ứng dụng VN Timeline.">
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-4">
+
+    <div class="max-w-md w-full bg-white rounded-xl shadow-md overflow-hidden p-8 border border-gray-100">
+        
+        <div class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-gray-900 mb-2">Liên hệ</h1>
+            <p class="text-gray-500 text-sm">Thông tin hỗ trợ & xuất bản</p>
+        </div>
+
+        <div class="space-y-6">
+            <!-- Tên tổ chức phát hành -->
+            <div>
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Tổ chức phát hành (Publisher)</h2>
+                <p class="text-lg font-medium text-gray-800">2U Software</p>
+            </div>
+
+            <!-- Ứng dụng tiêu biểu -->
+            <div>
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Ứng dụng (App)</h2>
+                <p class="text-base text-gray-800">VN Timeline (News Aggregator)</p>
+            </div>
+
+            <!-- Email liên hệ -->
+            <div>
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Email hỗ trợ</h2>
+                <a href="mailto:[ĐỊA CHỈ EMAIL CỦA BẠN]" class="text-blue-600 hover:text-blue-800 font-medium transition duration-150 ease-in-out">
+                    2usoft.lql@gmail.com
+                </a>
+                <p class="text-sm text-gray-500 mt-1">Vui lòng liên hệ qua email đối với các vấn đề về nội dung, bản quyền hoặc hỗ trợ kỹ thuật.</p>
+            </div>
+
+            <!-- Địa chỉ (Tùy chọn nhưng khuyến nghị cho News App) -->
+            <div>
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-1">Địa chỉ (Address)</h2>
+                <p class="text-base text-gray-800">202/1 Khóm Mỹ Xuyên, Phường long Xuyên, Tỉnh An Giang, Việt Nam</p>
+            </div>
+        </div>
+
+        <div class="mt-10 pt-6 border-t border-gray-100 text-center text-xs text-gray-400">
+            &copy; 2026 2U Software. All rights reserved.
+        </div>
+
+    </div>
+
+</body>
+</html>
